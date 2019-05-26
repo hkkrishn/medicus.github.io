@@ -1,0 +1,58 @@
+                                            body {
+                                                background-color: white;
+                                                font-family: 'Righteous', cursive;
+                                                /* background: #d6249f;
+                    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); */
+                                            }
+                                            
+                                            .title {
+                                                text-align: center;
+                                            }
+                                            
+                                            img {
+                                                width: 50%;
+                                                height: 50%;
+                                                transition: all 1s;
+                                            }
+                                            
+                                            img:hover {
+                                                transform: scale(1.1);
+                                                animation: pulse 5s infinite;
+                                            }
+                                            
+                                            .cloud {
+                                                width: 5%;
+                                                height: 5%;
+                                                margin-right: 20px;
+                                                padding: 0px;
+                                            }
+                                            
+                                            nav {
+                                                background: #000428;
+                                                /* fallback for old browsers */
+                                                background: -webkit-linear-gradient(to right, #004e92, #000428);
+                                                /* Chrome 10-25, Safari 5.1-6 */
+                                                background: linear-gradient(to right, #004e92, #000428);
+                                                /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                                            }
+                                            
+                                            .jumbotron {
+                                                font-family: 'Righteous', cursive;
+                                            }
+                                            
+                                            .clear {
+                                                text-align: center;
+                                            }
+                                            
+                                            .clear input {
+                                                width: 90%;
+                                                background-color: red;
+                                                color: white;
+                                                text-align: center;
+                                                transition: all 1s;
+                                            }
+                                            
+                                            .clear input:hover {
+                                                transform: scale(1.1);
+                                                animation: pulse 5s infinite;
+                                            }
